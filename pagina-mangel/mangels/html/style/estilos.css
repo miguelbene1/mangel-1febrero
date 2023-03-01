@@ -1,0 +1,85 @@
+.tooltip {
+	color: #e8e9ee;
+	position: absolute;
+	left: 7%;
+	top: 90%;
+}
+.tooltip2 {
+	color: #e8e9ee;
+	position: absolute;
+	left: 12%;
+	top: 90%;
+}
+.tooltip3 {
+	color: #000000;
+	position: absolute;
+	top: 20%;
+	right: 5%;
+	
+
+	
+}
+
+.tooltip:hover .tooltip-box {
+	display: inline-block;/*muestra el numero*/
+	font-size: 18px;
+}
+.tooltip2:hover .tooltip-box2 {
+	display: inline-block;/*muestra el numero*/
+	font-size: 18px;
+	
+}
+
+.tooltip3:hover .tooltip-box3 {
+	display: inline;/*muestra el numero*/
+	font-size: 18px;
+	width: 800%;
+	right: 100%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	
+	
+	
+}
+
+
+
+.tooltip-box {
+	display: none;
+	position: absolute;
+	line-height: 45px;
+
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	left: 4%;
+	bottom: 30px;
+	cursor: pointer;
+	
+}
+.tooltip-box2 {
+	display: none;
+	position: absolute;
+	line-height: 45px;
+
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	right: 4%;
+	bottom: 30px;
+	cursor: pointer;
+	
+}
+.tooltip-box3{
+	display: none;
+	position: absolute;
+	color: #fff9f9;
+	cursor: pointer;
+	line-height: 45px;
+	background: black;
+	
+
+	
+}
